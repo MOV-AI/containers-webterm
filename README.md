@@ -13,6 +13,8 @@ The container expose a webservice on port 3000 to get access to `movai-shell` vi
 
 ## Usage
 
+    docker run --rm -d -p 3000:3000 -v /run/movai/movai.sock:/run/movai/movai.sock movai-shell:latest
+
 This container must be used behind a HTTPS proxy (Nginx or HAProxy)
 
 For example, with HAProxy it needs following configuration sections :
