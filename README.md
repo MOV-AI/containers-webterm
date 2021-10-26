@@ -33,4 +33,4 @@ For example, with HAProxy it needs following configuration sections :
 
 Then on a running robot :
 
-    docker run -d --network MovaiNetwork-$ROBOTNAME-movai --name frontend-$ROBOTNAME-movai movai-shell
+    docker run -d --network MovaiNetwork-${ROBOTNAME}-movai --name frontend-${ROBOTNAME}-movai movai-shell
