@@ -1,3 +1,4 @@
+![MOVAI-SHELL](static/webshell.png)
 # MOV.AI Web SSH Terminal
 
 A simple NodeJS SSH terminal based on [Wetty](https://github.com/butlerx/wetty)
